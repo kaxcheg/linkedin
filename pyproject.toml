@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "scrape-and-count"
+version = "0.0.1"
+dependencies = [
+    beautifulsoup4==4.13.3
+    bs4==0.0.2
+    certifi==2025.1.31
+    charset-normalizer==3.4.1
+    idna==3.10
+    requests==2.32.3
+    soupsieve==2.6
+    typing_extensions==4.12.2
+    urllib3==2.3.0
+]
+requires-python = ">=3.12.5"
+authors = [
+  { name="kaxcheg", email="kaxcheg@gmail.com" },
+]
+description = "Simple keyword counter"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ['keyword', 'scraping']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
