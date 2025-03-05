@@ -1,6 +1,6 @@
 import unittest
 
-from scrape_and_count.scrape_and_count import word_count
+from linkedin.linkedin import word_count
 
 class TestWordCount(unittest.TestCase):
     def test_word_count(self):

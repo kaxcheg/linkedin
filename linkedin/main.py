@@ -1,7 +1,7 @@
 import sys
 import json
 
-from .scrape_and_count import write_jobs, word_count, JOBS
+from .linkedin import write_jobs, word_count, JOBS
 
 def main():
     len_argv = len(sys.argv)

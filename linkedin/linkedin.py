@@ -56,7 +56,7 @@ def write_jobs():
             json.dump(jobs, f, ensure_ascii=False, indent=4)
 
 def word_count(jobs_list:list[str]) -> list:
-    """Returns sorted list of Counters keywords from KEYWORDS file with counters of how many 
+    """Returns sorted list of Counters: keywords from KEYWORDS file with counters of how many 
     times this word (if keyword is a word) or any of words from the list (if keyword is a list) has been found in JOBS file."""
 
     with open(KEYWORDS, 'r') as f:
