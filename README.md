@@ -1,5 +1,6 @@
 # Description
-This is small keyword counter in Linkedin jobs. It prints number of jobs, where a keyword has appeared, for each keyword. Jobs are Linkedin jobs web pages. Keywords are names of skills, products etc. and could be strings or list of strings (in this case appearance of any word from the list is counts). 
+This is small keyword counter in Linkedin jobs. It prints number of jobs, where a keyword has appeared, for each keyword. Jobs are Linkedin jobs web pages. Keywords are names of skills, products etc. and could be strings or list of strings (in this case appearance of any word from the list counts). 
+
 Scraping is optimized searching only in lists and listing paragraphs, where keywords are presented in 90% vacancies.
 
 # Requirements
@@ -26,7 +27,7 @@ Clone repository:
 ```
 git clone https://github.com/kaxcheg/linkedin.git
 ```
-Run tests from tests folder:
+Run tests:
 ```
 py -m unittest discover
 ```
